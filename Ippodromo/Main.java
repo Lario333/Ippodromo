@@ -36,7 +36,7 @@ public class Main{
         int arrivedCarSpaces = 0 ; // Spazi della macchina arrivata
         String winner = ""; // String del vincitore
 
-        while( arrivedCarSpaces < TRAGUARDO - 33){
+        while( arrivedCarSpaces < TRAGUARDO - (11 + MAXSPACES) ) {
             for (int y = 0 ; y < names.length ; y++) {    // Numero di macchine , 8
                 int randSpaces = (int)(Math.random() * 3 + 1); // randomizza
                 nameSpaces[y] += randSpaces; // Aggiunge spazi random a se stesso
@@ -51,7 +51,7 @@ public class Main{
                     }
                 }
                 System.out.println();
-                for (int x = 1 ; x <= names.length - 1; x++) {
+                for (int x = 1 ; x <= names.length - 1; x++) { //
                     if (y == 0) {
                       if ( x == 1 ) {
                           winner = names[x];
