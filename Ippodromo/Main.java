@@ -50,7 +50,7 @@ public class Main{
                         System.out.println(spaceGen( MAXSPACES + nameSpaces[y] ) + "***********" + spaceGen(TRAGUARDO - 11 - (MAXSPACES + nameSpaces[y]))+ "|"  );
                     }
                 }
-                System.out.println();
+                System.out.println( spaceGen(TRAGUARDO) + " |");
                 for (int x = 1 ; x <= names.length - 1; x++) { //
                     if (y == 0) {
                       if ( x == 1 ) {
