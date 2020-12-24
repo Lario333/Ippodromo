@@ -5,6 +5,7 @@ public class Main{
     static Scanner input = new Scanner (System.in);
 
     public static void main(String args[]) {
+        System.out.print('\u000c');
         int spaces = 0 ;
         String[] names = new String[8]; // Array Nomi
         //Nomi
