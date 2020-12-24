@@ -1,2 +1,2 @@
 # Ippodromo
-Progetto Zarola e Iaci Ippodromo automobilistico
+Progetto Zarola e Iaci Ippodromo
