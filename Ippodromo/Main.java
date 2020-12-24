@@ -5,22 +5,7 @@ public class Main{
     static Scanner input = new Scanner (System.in);
 
     public static void main(String args[]) {
-
         char insertedText;
-
-        System.out.print('\u000c');
-        int spaces = 0 ;
-        String[] names = new String[8]; // Array Nomi
-        //Nomi
-        names[0] = "CORBINO";
-        names[1] = "BOTTURI";
-        names[2] = "FIRPO";
-        names[3] = "PUNTA";
-        names[4] = "POGGIO";
-        names[5] = "MONTEGRANDI";
-        names[6] = "FRACCHIA";
-        names[7] = "FERRARA";
-
 
         do {
             System.out.print('\u000c');
@@ -198,7 +183,7 @@ public class Main{
                 insertedText = input.next().charAt(0);
                 if ( insertedText != 's' && insertedText != 'n' && insertedText != 'S' && insertedText != 'N' )
                     System.err.println ("Scelta non valida");
-            } while( insertedText != 's' && insertedText != 'n' && insertedText != 'S' && insertedText != 'N';
+            } while( insertedText != 's' && insertedText != 'n' && insertedText != 'S' && insertedText != 'N');
 
         } while ( insertedText == 's' || insertedText == 'S' );
         System.out.println("\nSei uscito dal gioco");
@@ -230,11 +215,6 @@ public class Main{
         System.out.println("============Scommesse============\n");
 
 
-
-
-  
-        
-
         for (int i = 0; i < names.length; i ++){
             System.out.println( (i + 1 ) + "-" + names [i]);
         }
@@ -242,10 +222,6 @@ public class Main{
         boolean hasInt = false;
 
         System.out.println();
-
-
-=======
-        
 
         do {
             System.out.print("Inserire numero su chi puntare: ");
