@@ -5,9 +5,9 @@ public class Main{
     static Scanner input = new Scanner (System.in);
 
     public static void main(String args[]) {
-<<<<<<< HEAD
+
         char insertedText;
-=======
+
         System.out.print('\u000c');
         int spaces = 0 ;
         String[] names = new String[8]; // Array Nomi
@@ -20,7 +20,7 @@ public class Main{
         names[5] = "MONTEGRANDI";
         names[6] = "FRACCHIA";
         names[7] = "FERRARA";
->>>>>>> 05c1dde4421bf4db53861b9b53cde0ec519fcb36
+
 
         do {
             System.out.print('\u000c');
@@ -228,13 +228,13 @@ public class Main{
         int choose = 0;
 
         System.out.println("============Scommesse============\n");
-<<<<<<< HEAD
 
 
-=======
+
+
   
         
->>>>>>> 05c1dde4421bf4db53861b9b53cde0ec519fcb36
+
         for (int i = 0; i < names.length; i ++){
             System.out.println( (i + 1 ) + "-" + names [i]);
         }
@@ -242,11 +242,11 @@ public class Main{
         boolean hasInt = false;
 
         System.out.println();
-<<<<<<< HEAD
+
 
 =======
         
->>>>>>> 05c1dde4421bf4db53861b9b53cde0ec519fcb36
+
         do {
             System.out.print("Inserire numero su chi puntare: ");
             hasInt = false;
