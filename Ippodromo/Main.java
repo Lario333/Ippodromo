@@ -32,7 +32,7 @@ public class Main{
             nameSpaces[7] = 0;
 
             final int MAXSPACES = 11; // Lunghezza del nome più lungo
-            final int TRAGUARDO = 200; // Lunghezza del punto di arrivo
+            final int TRAGUARDO = 185; // Lunghezza del punto di arrivo
 
             int intChoose = initialBet();
             String betChoose = names[intChoose - 1]; // Nome della scelta
@@ -190,7 +190,7 @@ public class Main{
     } // main closed
 
     // Generatore di spazi
-    public static String spaceGen(int num){
+    private static String spaceGen(int num){
         String generatedString = "";
         for ( int i = 0 ; i < num ; i++){
             generatedString = generatedString + " ";
@@ -198,7 +198,7 @@ public class Main{
         return generatedString;
     }
     // Schermata iniziale per la scommessa
-    public static int initialBet() {
+    private static int initialBet() {
         String[] names = new String[8]; // Array Nomi
         //Nomi
         names[0] = "CORBINO";
