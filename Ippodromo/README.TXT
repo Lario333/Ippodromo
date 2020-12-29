@@ -10,4 +10,4 @@ VERSIONE oppure DATA: 24/12/2020
 COME AVVIARE IL PROGETTO: avviare main
 AUTORI: Zarola , Iaci
 ISTRUZIONI PER L'UTENTE: In caso di problemi di rislouzione, per cui non si riuscisse a
-visualizzare il traguardo, modificare riga 35 della classe main con un valore più basso.
+visualizzare il traguardo, modificare riga 35 della classe main con un valore più basso (indicativamente da portatile 145).
